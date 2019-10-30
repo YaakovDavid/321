@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+/* NAVBAR */
+.grid-container {
+  display: grid;
+  width: 40%;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -20%;
+}
+.grid-item {
+  background-color: transparent;
+  color: rgb(201, 198, 198);
+  font-size: 20px;
+  text-align: center;
+  padding-top: 15px;
+  text-decoration: none;
+}
+.grid-item:hover {
+  color: white;
+}
+.logo {
+  font-size: 40px;
+  padding-top: 0;
+  color: white;
+}
+/* NAVBAR */
+
+
+/* VIDEO HEADER */
+.sec-one {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  z-index: 1;
+}
+header {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+}
+#header-vid {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 90vh;
+}
+/* VIDEO HEADER */

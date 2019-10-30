@@ -1,0 +1,34 @@
+/* NAVBAR */
+header {
+  background-color: black;
+  width: 100%;
+  height: 10vh;
+}
+.grid-container {
+  display: grid;
+  width: 40%;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -20%;
+}
+.grid-item {
+  background-color: transparent;
+  color: rgb(201, 198, 198);
+  font-size: 20px;
+  text-align: center;
+  padding-top: 15px;
+  text-decoration: none;
+}
+.grid-item:hover {
+  color: white;
+}
+.logo {
+  font-size: 40px;
+  padding-top: 0;
+  color: white;
+}
+/* NAVBAR */

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/contact-header.css">
+  <link rel="stylesheet" href="css/contact.css">
+  <title>321 Motion</title>
+</head>
+<body>
+
+  <header>
+    <div class="grid-container">
+      <a href="index.html" class="grid-item">Home</a>
+      <a href="index.html" class="grid-item logo">321 Motion</a>
+      <a href="contact.html" class="grid-item">Contact</a>
+    </div>
+  </header>
+
+  <section class="sec-one">
+    <p>Let's Connect</p>
+  </section>
+
+  <form name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/myygbero"
+    method="post">
+      <!-- <label for="full-name">Full Name</label> -->
+      <input type="text" name="name" placeholder="Full name" required="">
+
+      <!-- <label for="email-address">Email Address</label> -->
+      <input type="email" name="_replyto" placeholder="Email" required="">
+
+      <!-- <label for="message">Message</label> -->
+      <textarea rows="5"
+        name="message"
+        placeholder="Your message"
+        required=""></textarea>
+      <input type="hidden" name="_subject" value="Contact Form Submission">
+      <span id="center-btn">
+        <input type="submit" value="Connect" id="sbmt-btn">
+      </span>
+  </form>
+
+  <footer class="footer">
+    <a href="https://www.instagram.com/321motion/" class="fa fab fa-instagram"></a>
+    <div id="ftr-txt">
+      <p>Powered by love</p>
+    </div>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/contact.js"></script>
+</body>
+</html>
