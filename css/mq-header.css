@@ -1,0 +1,47 @@
+@media only screen and (max-width: 760px) {
+  .viewport {
+    height: 90vh;
+  }
+  #header-vid {
+    height: 80vh;
+  }
+  .grid-item {
+    display: none;
+  }
+  .logo {
+    display: block;
+    font-size: 25px;
+  }
+  #fa-bars {
+    display: block;
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    top: -40%;
+    left: -60%;
+  }
+  .mobile-head-link {
+    display: block;
+    margin-top: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .mobile-head-link > a {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    display: block;
+    margin-top: 10px;
+  }
+  .mobile-ifram-header {
+    padding-top: 100vh;
+    color: black;
+    background-color: black;
+    opacity: 5;
+  }
+}

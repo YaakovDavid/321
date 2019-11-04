@@ -31,4 +31,10 @@ header {
   padding-top: 0;
   color: white;
 }
+.phone {
+  display: none;
+}
+.fa-bars {
+  display: none;
+}
 /* NAVBAR */
