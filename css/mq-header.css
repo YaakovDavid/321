@@ -5,6 +5,17 @@
   #header-vid {
     height: 80vh;
   }
+  .grid-container {
+    display: grid;
+    width: 100%;
+    grid-template-columns: auto;
+    padding: 10px;
+    z-index: 2;
+    position: absolute;
+    top: 80;
+    left: 50%;
+    margin-left: -50%;
+  }
   .grid-item {
     display: none;
   }
@@ -18,7 +29,7 @@
     font-size: 30px;
     position: absolute;
     top: -40%;
-    left: -60%;
+    left: 5%;
   }
   .mobile-head-link {
     display: block;
@@ -43,5 +54,14 @@
     color: black;
     background-color: black;
     opacity: 5;
+     /* overflow: none;
+      position: fixed;
+      padding-top: 100vh;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 5);
+    z-index: 2;
+    top: 0;
+    left: 0; */
   }
 }
