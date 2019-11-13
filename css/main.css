@@ -60,7 +60,7 @@ a:hover .title-div {
   text-align: center;
 }
 .footer > a {
-  margin-top: 40px;
+  margin: 40px;
   text-decoration: none;
   color: rgb(206, 203, 203);
   font-size: 40px;
@@ -74,6 +74,9 @@ a:hover .title-div {
   font-weight: 100;
   letter-spacing: 1px;
   color: rgb(120, 119, 119);
+}
+.footer-span-text {
+  font-size: 15px;
 }
 /* FOOTER */
 
