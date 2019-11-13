@@ -1,6 +1,10 @@
 @media only screen and (max-width: 760px) {
   .viewport {
-    height: 90vh;
+    /* height: 90vh; REMOVED FOR NONE VIDEO */
+
+    /* ADDED FOR NONE VIDEO HEADING */
+    height: 10vh;
+    
   }
   #header-vid {
     height: 80vh;

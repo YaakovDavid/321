@@ -50,12 +50,19 @@ body {
   padding: 0;
   width: 100%;
   z-index: 1;
+
+  /* ADDED FOR NONE VIDEO HEADING */
+  background-color: black;
 }
 header {
   margin: 0;
   padding: 0;
   width: 100%;
-  height: 100vh;
+  /* height: 100vh;  ----- REMOVE FOR NONE VIDEO */
+
+  /* ADDED FOR NONE VIDEO HEADING */
+  height: 10vh;
+  margin-bottom: 5vh;
 }
 #header-vid {
   margin: 0;
