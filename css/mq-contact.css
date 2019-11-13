@@ -5,6 +5,11 @@
   }
   .footer {
     height: 40vh;
+    text-align: left;
+  }
+  .footer > a {
+    margin: 20px 40px;
+
   }
 }
 /* EMAIL FORM */

@@ -14,29 +14,34 @@
 }
 .img-thumnail {
   width: 100%;
-  border-radius: 5px;
+  border-radius: 7px;
   /* height: 225px; */
 }
 /* IMAGE GRID */
 
 
 /* IMAGE HOVER OVERLAY */
-.img-thumnail:hover {
-  opacity: 0.5;
+.image-link:hover {
+  opacity: 0.7;
 }
 .title-div {
   position: relative;
   bottom: 100px;
   opacity: 0;
   transition: .5s ease;
-  background-color: rgb(31, 32, 32);
+  /* background-color: rgb(31, 32, 32); */
+  color: white;
+  font-size: 20px;
 }
+
 a:hover .title-div {
   opacity: 1;
 }
 .title {
-  color: rgb(12, 12, 12);
-  font-size: 20px;
+  /* color: rgb(12, 12, 12); */
+  color: white;
+  text-shadow: 2px 2px #1c1c1c;
+  font-size: 30px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -60,6 +65,7 @@ a:hover .title-div {
   text-align: center;
 }
 .footer > a {
+  display: inline-block;
   margin: 40px;
   text-decoration: none;
   color: rgb(206, 203, 203);
@@ -76,7 +82,7 @@ a:hover .title-div {
   color: rgb(120, 119, 119);
 }
 .footer-span-text {
-  font-size: 15px;
+  font-size: 20px;
 }
 /* FOOTER */
 
