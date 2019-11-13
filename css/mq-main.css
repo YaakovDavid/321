@@ -2,4 +2,7 @@
   .sec-two {
     overflow-x: hidden
   }
+  .footer {
+    height: 40vh;
+  }
 }

@@ -3,5 +3,8 @@
   form {
     max-width: 80%;
   }
+  .footer {
+    height: 40vh;
+  }
 }
 /* EMAIL FORM */
