@@ -17,6 +17,7 @@ form {
   max-width: 40%;
   margin: 0 auto;
   height: 60vh;
+  margin-bottom: 10vh;
 }
 form > input, form > textarea{
   width: 100%;
@@ -89,3 +90,33 @@ form > textarea {
   font-size: 20px;
 }
 /* FOOTER */
+
+
+
+
+/* @media only screen and (max-width: 1355px) {
+   @media (orientation: landscape) {
+    .viewport {
+     height: 24vh;
+    }
+    header {
+      margin-bottom: 14vh;
+      height: 25vh;
+    }
+    .footer {
+      height: 43vh;
+      text-align: center;
+    }
+    form {
+      max-width: 40%;
+      margin: 0 auto;
+      height: 127vh;
+    }
+    .container {
+      display: grid;
+      grid-gap: 10px;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      grid-template-rows: repeat(225px);
+    }
+  }
+} */
