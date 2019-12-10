@@ -1,7 +1,4 @@
 @media only screen and (max-width: 760px) {
-  /* .sec-two {
-    overflow-x: hidden
-  } */
   .footer {
     height: 43vh;
     text-align: left;
@@ -35,6 +32,33 @@
       text-align: center;
   }
 }
+
+
+@media only screen and (max-width: 568px) {
+   @media (orientation: landscape) {
+    .footer {
+      height: 50vh;
+    }
+  }
+}
+
+@media only screen and (max-width: 812px) {
+   @media (orientation: landscape) {
+    .footer-span-text {
+      font-size: 17px;
+    }
+  }
+}
+
+@media only screen and (max-width: 812px) {
+   @media (orientation: landscape) {
+    .footer {
+      height: 30vh;
+    }
+  }
+}
+
+
 /*
 @media only screen and (max-width: 900px) and (orientation: landscape) {
     .viewport {

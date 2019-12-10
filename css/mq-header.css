@@ -4,14 +4,14 @@
 
     /* ADDED FOR NONE VIDEO HEADING */
     height: 10vh;
-
+    width: 100%;
   }
   #header-vid {
     height: 80vh;
   }
   .grid-container {
     display: grid;
-    width: 100%;
+    width: 95%;
     grid-template-columns: auto;
     padding: 10px;
     z-index: 2;
@@ -25,7 +25,11 @@
   }
   .logo {
     display: block;
-    font-size: 25px;
+    /* font-size: 5px; */
+    height: 10px;
+    width: 30%;
+    text-align: center;
+    margin: 0 auto;
   }
   #fa-bars {
     display: block;
@@ -62,11 +66,46 @@
 }
 
 
-/* @media only screen and (max-width: 900px) {
+
+@media only screen and (max-width: 640px) {
    @media (orientation: landscape) {
-    .grid-container {
+     .viewport {
+      height: 18vh;
+    }
+  }
+}
+
+@media only screen and (max-width: 731px) {
+   @media (orientation: landscape) {
+     .viewport {
+      height: 20vh;
+    }
+  }
+}
+@media only screen and (max-width: 760px) {
+   @media (orientation: landscape) {
+     .viewport {
+      height: 22vh;
+    }
+  }
+}
+
+@media only screen and (max-width: 812px) {
+   @media (orientation: landscape) {
+     .viewport {
+      height: 20vh;
+      font-size: 100%;
+    }
+  }
+}
+
+
+
+
+/*
+ .grid-container {
       display: grid;
-      width: 100%;
+      width: 90%;
       grid-template-columns: auto;
       padding: 10px;
       z-index: 2;
@@ -113,6 +152,4 @@
       color: black;
       background-color: black;
       opacity: 5;
-    }
-  }
-} */
+    } */
