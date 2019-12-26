@@ -64,7 +64,8 @@ header {
   /* height: 100vh;  ----- REMOVE FOR NONE VIDEO */
 
   /* ADDED FOR NONE VIDEO HEADING */
-  height: 10vh;
+  /* height: 10vh; */
+  height: 100px;
   margin-bottom: 5vh;
 }
 #header-vid {

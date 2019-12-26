@@ -3,7 +3,7 @@
     /* height: 90vh; REMOVED FOR NONE VIDEO */
 
     /* ADDED FOR NONE VIDEO HEADING */
-    height: 10vh;
+    height: 100px;
     width: 100%;
   }
   #header-vid {
@@ -70,7 +70,7 @@
 @media only screen and (max-width: 640px) {
    @media (orientation: landscape) {
      .viewport {
-      height: 18vh;
+      /* height: 18vh; */
     }
   }
 }
@@ -78,14 +78,14 @@
 @media only screen and (max-width: 731px) {
    @media (orientation: landscape) {
      .viewport {
-      height: 20vh;
+      /* height: 20vh; */
     }
   }
 }
 @media only screen and (max-width: 760px) {
    @media (orientation: landscape) {
      .viewport {
-      height: 22vh;
+      /* height: 22vh; */
     }
   }
 }
@@ -93,8 +93,83 @@
 @media only screen and (max-width: 812px) {
    @media (orientation: landscape) {
      .viewport {
-      height: 20vh;
+      /* height: 20vh; */
       font-size: 100%;
+    }
+  }
+}
+
+
+@media only screen and (max-width: 1366px) {
+
+    .footer {
+      /* height: 50vh; */
+    }
+
+}
+
+@media only screen and (max-width: 1024px) {
+   /* @media (orientation: landscape) { */
+    .footer {
+      /* height: 56vh; */
+    }
+  /* } */
+}
+
+@media only screen and (max-width: 830px) {
+   @media (orientation: landscape) {
+    .footer {
+      /* height: 40vh; */
+    }
+  }
+}
+
+@media only screen and (max-width: 812px) {
+   @media (orientation: landscape) {
+    .footer {
+      /* height: 30vh; */
+      /* height: 55vh; */
+    }
+    .footer-span-text {
+      font-size: 17px;
+    }
+  }
+}
+
+
+@media only screen and (max-width: 768px) {
+  .footer {
+    /* height: 50vh; */
+    text-align: left;
+  }
+  .footer > a {
+    margin: 20px 40px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+   /* @media (orientation: landscape) { */
+    .footer {
+      /* height: 40vh; */
+      text-align: left;
+      font-size: 0px;
+    }
+  /* } */
+}
+
+@media only screen and (max-width: 760px) {
+   @media (orientation: landscape) {
+    .footer {
+      /* height: 50vh; */
+      text-align: left;
+    }
+  }
+}
+
+@media only screen and (max-width: 568px) {
+   @media (orientation: landscape) {
+    .footer {
+      /* height: 54vh; */
     }
   }
 }
