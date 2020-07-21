@@ -27,7 +27,7 @@
 }
 .title-div {
   position: relative;
-  bottom: 100px;
+  bottom: 50%;
   opacity: 0;
   transition: .5s ease;
   /* background-color: rgb(31, 32, 32); */
