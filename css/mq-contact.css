@@ -14,4 +14,11 @@
 
 
 }
+
+@media only screen and (min-width: 760px) {
+  .footer {
+    position: absolute;
+    bottom: 0;
+  }
+}
 /* EMAIL FORM */
