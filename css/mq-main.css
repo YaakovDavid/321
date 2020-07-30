@@ -12,7 +12,6 @@
       position: absolute;
       top: 60%;
       left: 50%;
-      bottom: 20%;
       -webkit-transform: translate(-60, -50%);
       -ms-transform: translate(-50%, -50%);
       transform: translate(-50%, -50%);
