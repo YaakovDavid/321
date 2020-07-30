@@ -72,6 +72,7 @@ a:hover .title-div {
   text-decoration: none;
   color: rgb(206, 203, 203);
   font-size: 40px;
+  font-family: 'Lato', sans-serif;
 }
 .footer > a:hover {
   color: white;
