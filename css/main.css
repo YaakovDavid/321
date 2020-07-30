@@ -50,7 +50,7 @@ a:hover .title-div {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
-  font-family: 'Lato', sans-serif;
+  font-family: 'PT Sans', sans-serif;
 }
 /* IMAGE HOVER OVERLAY */
 
@@ -72,7 +72,7 @@ a:hover .title-div {
   text-decoration: none;
   color: rgb(206, 203, 203);
   font-size: 40px;
-  font-family: 'Lato', sans-serif;
+  font-family: 'PT Sans', sans-serif;
 }
 .footer > a:hover {
   color: white;
