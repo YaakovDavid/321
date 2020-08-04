@@ -27,7 +27,7 @@
     display: block;
     /* font-size: 5px; */
     height: 10px;
-    width: 30%;
+    width: 40%;
     text-align: center;
     margin: 0 auto;
   }
@@ -36,7 +36,7 @@
     color: white;
     font-size: 30px;
     position: absolute;
-    top: -40%;
+    top: -20%;
     left: 5%;
   }
   .mobile-head-link {
