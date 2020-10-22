@@ -40,6 +40,13 @@
 
 }
 
+.image-link {
+
+    height: 200px;
+  
+}
+
+
 a:hover .title-div {
   opacity: 1;
 }
